@@ -6,7 +6,7 @@ h1 {
 }
 
 h2 {
-  color: green;
+  color:rgb(1, 194, 1);
   font-size: 16px;
   line-height: normal;
   font-family: 'Advent Pro', sans-serif;
@@ -35,8 +35,9 @@ line-height: normal;
 }
 
 a {
-  color: blue;
+  color:#15ff00cf;
   text-decoration: none;
+  font-size: 12px;
 }
 
 a:hover {
@@ -54,14 +55,21 @@ a:hover {
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
 
-div {
-  border-top: 1px dotted grey;
-  border-right: 2px dotted grey;
-  border-bottom: 1px dotted grey;
-  border-left: 2px dotted grey;
-  padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.container {
+  width: 700px;
+  margin: 20px 0px;
+}
+
+.profilepic_container {
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.body_container {
+  background-color: whitesmoke;
+  margin: 20px 0px;
+  text-align: center;
   border-radius: 5px;
 }
 
@@ -75,9 +83,14 @@ div {
   border-radius: 5px;
 }
 
-.list-inline > li {
-  display: inline-block;
+.list-inline {
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline;
   padding: 0px 20px;
+  text-align: center;
 }
 
 @media (max-width: 960px) {
