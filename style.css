@@ -1,0 +1,102 @@
+h1 {
+  color:white;
+  font-size: 18px;
+  line-height: normal;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+h2 {
+  color: green;
+  font-size: 16px;
+  line-height: normal;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+h3 {
+  color:white;
+  font-size: 14px;
+  line-height: normal;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+.portrait_pic {
+  border-radius: 150px;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+body {
+background-color: whitesmoke;
+font-family:Arial, Helvetica, sans-serif;
+color: black;
+font-size: 12px;
+line-height: normal;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: blue;
+}
+
+.header_container {
+  border-top: 1px solid black;
+  border-right: 2px solid black;
+  border-bottom: 1px solid black;
+  border-left: 2px solid black;
+  background-color: black;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+div {
+  border-top: 1px dotted grey;
+  border-right: 2px dotted grey;
+  border-bottom: 1px dotted grey;
+  border-left: 2px dotted grey;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.footer_container {
+  border-top: 1px solid;
+  border-right: 2px solid;
+  border-bottom: 1px solid;
+  border-left: 2px solid;
+  background-color: black;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
